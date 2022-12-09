@@ -1,12 +1,12 @@
-package service;
+package coffee.service;
 
 import java.util.List;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import model.Course;
-import repository.RepositoryCourse;
+import coffee.model.Course;
+import coffee.repository.RepositoryCourse;
 
 @Service
 public class ServiceCourse {

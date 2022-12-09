@@ -1,4 +1,6 @@
-package model;
+package coffee.model;
+
+
 
 import jakarta.persistence.*;
 
@@ -6,7 +8,6 @@ import jakarta.persistence.*;
 public class Course {
     
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     
     private String name;
